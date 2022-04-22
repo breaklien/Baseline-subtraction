@@ -8,9 +8,7 @@
 </p>
 
 ## Overview
-Subtract baseline for XRD libraries based on asymmetric least squares smoothing. In most case, the baseline problems in instrumental methods are characterized by a smooth
-baseline and a superimposed signal that carries the analytical information: a series of peaks that are either all positive or all negative. We combine a smoother
-with asymmetric weighting of deviations from the (smooth) trend get an effective
+Subtract baseline for XRD libraries based on asymmetric least squares smoothing. In most case, the baseline problems for a given spectrum are characterized by a superimposed signal that carries the analytical information: a series of peaks that are either all positive or all negative. The algorithm uses a smoother asymmetric weighting of deviations from the (smooth) trend to generate an effective
 baseline estimator. It is easy to use, fast and keeps the analytical peak signal intact. No prior information about peak shapes or baseline (polynomial) is needed
 by the method. The performance is illustrated by simulation and applications to
 real data.
