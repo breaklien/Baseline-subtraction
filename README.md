@@ -21,4 +21,4 @@ real data.
 
 
 ## Python dependencies
-The list of required python packages is contained in the [requirements.txt](requirements.txt) file in this repository. After install the required dependencies, run `main_baseline_subtraction.py` to execute the program.
+The list of required python packages is contained in the [requirements.txt](requirements.txt) file in this repository. After installing the required dependencies, run `main_baseline_subtraction.py` to execute the program.
